@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    background-image: url(bc1.webp);
+    
+    
+    
+}
+.header{
+    margin:2% 30%;backdrop-filter: blure(15px);
+    position: fixed;
+    
+}
+.calculater{
+    display: grid;
+    grid-template-columns: repeat(4,68px);
+    border-radius: 10px;
+    box-shadow: inset 25px 25px 70px white;
+    box-shadow:  inset 25px 25px 70px black;
+    padding-right: 10px;
+    backdrop-filter: blure"15px";
+    
+    
+}
+button:hover{
+    transform: scale(0.95);
+}
+button{
+    color: white;
+   padding: 10px;
+   margin-bottom: 10px;
+    border-radius: 50px;
+    background-color: black;
+    background: transparent;
+    border: 2px solid yellow;
+    margin-left: 10px;
+    font-size: 15px;
+    box-shadow: inset 5px 5px 30px white;
+    box-shadow:  inset 5px 5px 30px black;
+    box-shadow: 10px 10px 30px black;
+}
+input{
+    grid-column: span 4;
+    border: 2px solid yellow;
+    width: 95%;
+    height: 15vh;
+    margin: 10px 15px;
+    box-shadow: inset 5px 5px 30px white;
+    box-shadow:  inset 5px 5px 30px black;
+    border-radius: 10px;
+    color: white;font-size: 30px;
+    text-align: end;
+}
+input::placeholder{
+    color:rgb(215, 218, 32);margin-right: 10px;
+}
+.equlto{
+    grid-column: span 2;
+    color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+     border-radius: 20px;
+     background-color: black;
+     background: transparent;
+     border: 2px solid yellow;
+     margin-left: 10px;
+}
